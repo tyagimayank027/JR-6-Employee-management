@@ -14,10 +14,10 @@ public class EmployeeMain {
 		Employee employees[] = new Employee[4];
 		Department department1 = new Department("D1", "Development");
 		Department department2 = new Department("D2", "Testing");
-		Developer developer1 = new Developer(1, "Green", department1, "React");
-		Developer developer2 = new Developer(2, "Maddy", department1, "Angular");
-		Tester tester1 = new Tester(3, "Nikhil", department2, "Selenium");
-		Tester tester2 = new Tester(4, "Joey", department2, "Ranorex");
+		Developer developer1 = new Developer(1, "Green", department1, "Machine Learning");
+		Developer developer2 = new Developer(2, "Maddy", department1, "Java Script");
+		Tester tester1 = new Tester(3, "Mayank", department2, "Python");
+		Tester tester2 = new Tester(4, "Rohit", department2, "Java");
 		employees[0] = developer1;
 		employees[1] = developer2;
 		employees[2] = tester1;
